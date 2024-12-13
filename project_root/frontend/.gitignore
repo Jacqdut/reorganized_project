@@ -1,0 +1,9 @@
+.bash_logout
+.bashrc
+.docker/
+.env
+.flickr/
+.git/
+.vscode/
+*.log
+node_modules/
