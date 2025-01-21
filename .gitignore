@@ -1,0 +1,4 @@
+backend/firebase_service_account.json
+backend/vqa-projects-firebase-adminsdk-8kuh0-12348c558f.json
+backend/.env
+backend/test_openai_key.py
