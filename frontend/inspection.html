@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inspection</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f7fa;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 40px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 28px;
+            color: #005a87;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border: 1px solid #ddd;
+            font-size: 16px;
+        }
+
+        th {
+            background-color: #005a87;
+            color: white;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #005a87;
+            border: none;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #00456b;
+        }
+
+        .action-links {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .action-links a {
+            color: #005a87;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .action-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Inspection Details</h2>
+
+        <table>
+            <tr>
+                <th>Inspection ID</th>
+                <td>12345</td>
+            </tr>
+            <tr>
+                <th>Location</th>
+                <td>Site A</td>
+            </tr>
+            <tr>
+                <th>Date</th>
+                <td>2024-11-14</td>
+            </tr>
+            <tr>
+                <th>Inspector</th>
+                <td>John Doe</td>
+            </tr>
+            <tr>
+                <th>Status</th>
+                <td>Pending</td>
+            </tr>
+        </table>
+
+        <div class="action-links">
+            <a href="#">Mark as Completed</a> | 
+            <a href="#">Add Notes</a>
+        </div>
+    </div>
+
+</body>
+
+</html>

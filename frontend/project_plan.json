@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "name": "Set up Firebase Emulator",
+      "status": "completed",
+      "location": "firebase.json",
+      "dependency": null
+    },
+    {
+      "name": "Create AI Defect Detection Model",
+      "status": "in progress",
+      "location": "src/ai_model",
+      "dependency": "firebase-storage"
+    },
+    {
+      "name": "Finalize Backend Integration",
+      "status": "pending",
+      "location": "backend/src",
+      "dependency": "AI Defect Detection Model"
+    }
+  ]
+}

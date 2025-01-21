@@ -1,0 +1,49 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Quality Inspections API",
+        "description": "API for managing quality inspections"
+    },
+    "paths": {
+        "/api/defects": {
+            "get": {
+                "summary": "Retrieve all defects",
+                "responses": {
+                    "200": {
+                        "description": "List of defects"
+                    }
+                }
+            },
+            "post": {
+                "summary": "Add a new defect",
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "required": true,
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "name": {
+                                    "type": "string"
+                                },
+                                "severity": {
+                                    "type": "string"
+                                },
+                                "description": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "Defect created"
+                    }
+                }
+            }
+        }
+    }
+}

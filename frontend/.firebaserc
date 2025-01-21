@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "VQA": "quality-inspections-436811",
+    "default": "quality-inspections-436811"
+  },
+  "targets": {},
+  "etags": {}
+}
