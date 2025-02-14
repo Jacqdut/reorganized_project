@@ -1,0 +1,12 @@
+{
+    "http.proxySupport": "off",
+    "workbench.startupEditor": "welcomePageInEmptyWorkbench",
+    "redhat.telemetry.enabled": false,
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "terminal.integrated.defaultProfile.linux": "Google Cloud Shell",
+    "supermaven.allowGitignore": true,
+    "supermaven.enable": true,
+    "supermaven.autoFixOnSave": true,
+    "supermaven.showAICompletions": true
+}
